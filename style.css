@@ -1,0 +1,153 @@
+body {
+    background: #C49974;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1 {
+    color: #210062;
+    font-size: 30px;
+}
+
+.cabecalho img {
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+::placeholder {
+    color:#210062;
+    font-size: 25px;
+    
+
+  }
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+#input-txt{
+    width: 820px;
+    height: 360px;
+    font-size: 20px;
+    color: #210062 ;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+
+#input-txte{
+    width: 340px;
+    height: 330px;
+    font-size: 20px;
+    color: #210062 ;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #210062;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: #77037B;
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+#output img{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+.container-input p {
+   font-size: 15px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-bnt button{
+    border: 5px solid #210062;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    width:200px;
+    height: 50px;
+    margin-left: 4% ;
+    cursor: pointer;
+    background-color: #009FBD;
+    font-size: 18px;
+    
+}
+.btn-copiar{
+    border: 5px solid #210062;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    background-color:  #009FBD;
+    font-size: 18px;
+}
+
+.container-bnt button:hover{
+   border: 2px solid #210062;
+   transition: 0.5s all;
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background: #009FBD;
+    color: black;
+
+}
+.rodape h3 {
+    font-size: 16px 
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+.icons ion-icon {
+    width: 30%;
+    height: 25px;
+    color: darkblue;    
+}
+
+.icons ion-icon:hover{
+    color: rgb(123, 0, 139);
+}
